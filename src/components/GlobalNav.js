@@ -8,12 +8,10 @@ export default class GlobalNav extends Component {
       <nav className="gnb">
         <Container maxWidth="1860" className="wrap">
           <h1>logo</h1>
-          <Router>
-            <div className="links">
-              <Link to="/">Home</Link>
-              <Link to="/contact">Contact</Link>
-            </div>
-          </Router>
+          <div className="links">
+            <Link to="/">Home</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
         </Container>
       </nav>
     );

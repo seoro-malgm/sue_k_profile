@@ -1,5 +1,13 @@
+$gnb-height: 40px;
+
 .gnb {
   padding: 0.5rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: #fff, $alpha: 0.3);
+  backdrop-filter: blur(1px);
   .wrap {
     display: flex;
     align-items: center;
@@ -16,4 +24,14 @@
       }
     }
   }
+}
+
+main.main {
+  // margin-top: $gnb-height;
+}
+
+section.section-intro {
+  width: 100%;
+  min-height: 720px;
+  background-color: #333399;
 }
